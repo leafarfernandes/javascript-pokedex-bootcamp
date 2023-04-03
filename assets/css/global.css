@@ -1,0 +1,41 @@
+ * {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+ }
+
+ body {
+  background-color: #F6F8FC;
+ }
+
+ body h1 {
+  text-align: center;
+  font-size: 50px;
+  border-radius: 1rem;
+  background-color: #ebecf1;
+  border: none;
+  padding: .5rem 1rem;
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.38);
+-webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.38);
+-moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.38);
+ }
+
+ body h1:hover {
+  background: rgb(245, 244, 176);
+  transition: 1s;
+ }
+
+ .content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #FFF;
+ }
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }  
+}
